@@ -14,7 +14,7 @@
         "typo3/party": "3.0.0-beta2",
         "intega3/core": "@dev",
         "intega3/locale": "@dev",
-        "intega3/template": "@dev",
+        "intega3/template": "@dev"
     },
     "require-dev": {
         "typo3/kickstart": "3.0.0-beta5",
