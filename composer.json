@@ -7,19 +7,18 @@
         "bin-dir": "bin"
     },
     "require": {
-        "typo3/flow": "3.0.0-rc1",
-        "typo3/fluid": "@rc",
-        "typo3/eel": "@rc",
+        "typo3/flow": "3.0.*",
         "doctrine/migrations": "@rc",
-        "typo3/party": "3.0.0-beta2",
+        "typo3/party": "3.0.*",
         "intega3/core": "dev-master",
         "intega3/locale": "dev-master",
         "intega3/template": "dev-master"
     },
     "require-dev": {
-        "typo3/buildessentials": "3.0.0-rc1",
+        "typo3/buildessentials": "3.0.*",
         "phpunit/phpunit": "4.6.*",
-        "mikey179/vfsstream": "1.5.*"
+        "mikey179/vfsstream": "1.5.*",
+        "flowpack/behat": "dev-master"
     },
     "suggest": {
         "ext-pdo_sqlite": "For running functional tests out-of-the-box this is required"
