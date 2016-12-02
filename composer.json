@@ -7,17 +7,16 @@
         "bin-dir": "bin"
     },
     "require": {
-        "typo3/flow": "3.0.*",
-        "doctrine/migrations": "@rc",
-        "typo3/party": "3.0.*",
+        "typo3/flow": "~3.3.0",
+        "typo3/party": "dev-master",
         "intega3/core": "dev-master",
         "intega3/locale": "dev-master",
         "intega3/template": "dev-master"
     },
     "require-dev": {
-        "typo3/buildessentials": "3.0.*",
-        "phpunit/phpunit": "4.6.*",
-        "mikey179/vfsstream": "1.5.*",
+        "typo3/buildessentials": "3.3.x-dev",
+        "phpunit/phpunit": "~4.8 || ~5.4.0",
+        "mikey179/vfsstream": "~1.6",
         "flowpack/behat": "dev-master"
     },
     "suggest": {
